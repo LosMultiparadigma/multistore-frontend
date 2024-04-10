@@ -6,7 +6,8 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { LoginForm } from "./LoginForm";
-import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "./components/ui/button";
 
 export default function App() {
   return (
@@ -19,9 +20,9 @@ export default function App() {
         <CardDescription className="text-2xl font-bold">
           Hoy no estamos, regrese otro día 🌞
         </CardDescription>
-        {/* <CardFooter>
+        <CardFooter>
           <Button>Jjajaa OK</Button>
-        </CardFooter> */}
+        </CardFooter>
       </Card>
     </div>
       <LoginForm />
